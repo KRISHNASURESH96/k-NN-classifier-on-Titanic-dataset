@@ -28,11 +28,11 @@ The goal is to:
 
 ##  Key Features
 
-✅ Data cleaning and preprocessing  
-✅ Feature scaling (Min-Max normalization)  
-✅ Euclidean, Manhattan, and Hamming distance functions  
-✅ Majority voting across k neighbors  
-✅ Accuracy comparisons and best model selection
+ Data cleaning and preprocessing  
+ Feature scaling (Min-Max normalization)  
+ Euclidean, Manhattan, and Hamming distance functions  
+ Majority voting across k neighbors  
+ Accuracy comparisons and best model selection
 
 ---
 

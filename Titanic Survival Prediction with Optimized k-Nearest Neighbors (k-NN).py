@@ -526,31 +526,3 @@ test_knn(train_set_scaled.values, train_label.values, test_set_scaled.values, te
 # 
 
 # In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

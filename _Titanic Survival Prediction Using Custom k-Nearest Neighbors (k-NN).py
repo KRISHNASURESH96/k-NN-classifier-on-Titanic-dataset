@@ -241,7 +241,7 @@ evaluate_knn(X_train_scaled, y_train, X_test_scaled, y_test, k_values=[1, 3, 5, 
 
 # # Final Summary
 
-# ## 📈 Summary and Conclusions
+# ## Summary and Conclusions
 # 
 # In this project, we built and tested a custom **k-Nearest Neighbors (k-NN)** classifier (without using external machine learning libraries)  
 # to predict passenger survival on the Titanic dataset.
@@ -254,24 +254,24 @@ evaluate_knn(X_train_scaled, y_train, X_test_scaled, y_test, k_values=[1, 3, 5, 
 # And tested multiple values of **k**:
 # - k = 1, 3, 5, 7
 # 
-# ### 🔍 **Key Findings**
-# ✅ The **best-performing configuration** was:
+# ### **Key Findings**
+# The **best-performing configuration** was:
 # - **k = 5**
 # - **Manhattan distance**
 # - Achieved an accuracy of **85.39%**
 # 
-# ✅ **Performance trends:**
+# **Performance trends:**
 # - Accuracy generally improved as we moved from k=1 to k=5.
 # - Manhattan and Euclidean distances outperformed Hamming, which makes sense because Hamming is better suited to binary/categorical data.
 # - Using majority voting (larger k) made predictions more stable compared to relying on a single nearest neighbor (k=1).
 # 
-# ### 💡 **Possible Improvements**
+# ### **Possible Improvements**
 # - Tune `k` further (try higher values like 9, 11) to see if performance improves.
 # - Use cross-validation rather than a single train/test split for more robust evaluation.
 # - Apply dimensionality reduction (e.g., PCA) or feature selection to optimize input features.
 # - Experiment with weighted voting schemes, where closer neighbors have more influence.
 # 
-# ### 📦 **Final Thoughts**
+# ### **Final Thoughts**
 # This notebook demonstrates how to build a simple but effective k-NN classifier using only NumPy and Pandas.  
 # Even without advanced libraries, we can achieve competitive accuracy on classic datasets like Titanic  
 # by applying careful data preprocessing, distance selection, and parameter tuning.
